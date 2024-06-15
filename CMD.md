@@ -66,7 +66,7 @@ commit -m
 ```
 Создание новой ветки
 ```sh
-branch имя
+branch <git branch>
 ```
 
 Слияние двух веток
