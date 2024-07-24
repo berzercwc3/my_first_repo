@@ -85,8 +85,24 @@ git branch -M "Название ветки main"
 ```
 git remote add origin https://github.com/berzercwc3/my_first_repo.git
 ```
+
 Объединение истории двух независимых репозиториев
 ```
 git pull origin main --allow-unrelated-histories
+```
+
+Видим привязку удаленного репозитория
+```
+git remote -v
+```
+
+Извлечение и интеграция изменений из удалённого репозитория в вашу локальную ветку
+```
+git pull
+```
+
+Используется для отправки локальных изменений в удалённый репозиторий
+```
+git push
 ```
 
