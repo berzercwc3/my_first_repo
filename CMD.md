@@ -75,3 +75,16 @@ branch <имя_ветки>
 ```sh
 merge
 ``` 
+
+Переименовать ветку Master в Main
+```
+git branch -M "Название ветки main"
+```
+
+Связывание локального репозитория с удаленным
+```
+git remote add origin https://github.com/berzercwc3/my_first_repo.git
+```
+
+
+
